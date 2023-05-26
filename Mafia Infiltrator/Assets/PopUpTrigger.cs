@@ -45,9 +45,10 @@ public class PopUpTrigger : MonoBehaviour
         blueGate.GetComponent<Teleporter>().DisableTeleporter();
     }
 
-    private void OnInteractButtonClicked()
+    public void OnInteractButtonClicked()
     {
         string selectedAnswer = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TextMeshProUGUI>().text;
+        Debug.Log("waleed");
 
         if (selectedAnswer == quizData.questions[currentQuestionIndex].answer)
         {
@@ -83,7 +84,7 @@ public class PopUpTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("AccessButton"))
+        if (collision.CompareTag("Player"))
         {
             if (currentQuestionIndex == -1)
             {
@@ -110,9 +111,10 @@ public class PopUpTrigger : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("AccessButton"))
+        if (collision.CompareTag("Player"))
         {
             canvas.SetActive(false);
         }
     }
+
 }

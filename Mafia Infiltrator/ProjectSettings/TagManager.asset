@@ -11,6 +11,8 @@ TagManager:
   - AccessButton
   - Path
   - Floor
+  - goToNextLevel
+  - next
   layers:
   - Default
   - TransparentFX

@@ -10666,6 +10666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b079ac28e8dd2645b09024ed15016e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
   maxHealth: 3
   currentHealth: 0
   healthBar: {fileID: 301393254}
