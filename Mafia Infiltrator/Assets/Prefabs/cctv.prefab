@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8329756902956796873}
   - component: {fileID: 7985790214094771062}
-  - component: {fileID: 8993800161064407860}
-  - component: {fileID: 3687785617462279730}
   m_Layer: 0
   m_Name: cctv
   m_TagString: Untagged
@@ -86,31 +84,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8993800161064407860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6575531208840508252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29f30dd84baef8041940576c09c1f21d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startAngle: -5.4
-  endAngle: 170
-  rotationTime: 2
-  waitTime: 5
---- !u!114 &3687785617462279730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6575531208840508252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 620f1f3c56fccaa4fb5f221e48327e9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

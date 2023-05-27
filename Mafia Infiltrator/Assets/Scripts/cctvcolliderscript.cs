@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class cctvcolliderscript : MonoBehaviour
 {
+    public Collider2D detectionCollider;
     private bool isPlayerDetected = false;
     void Update(){
         if(isPlayerDetected){
@@ -24,5 +25,9 @@ public class cctvcolliderscript : MonoBehaviour
         {
             isPlayerDetected = false;
         }
+    }
+    public void DisableCamera()
+    {
+        detectionCollider.enabled = false;
     }
 }
