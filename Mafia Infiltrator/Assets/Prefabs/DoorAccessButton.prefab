@@ -94,7 +94,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7750093189101525458}
   - component: {fileID: 2684185132948821613}
-  - component: {fileID: 7878598156747823993}
   m_Layer: 0
   m_Name: DoorAccessButton
   m_TagString: AccessButton
@@ -144,27 +143,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.22329581, y: 0.7214577}
   m_EdgeRadius: 0
---- !u!114 &7878598156747823993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7599211561801043268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9da1cf241351e4c4590b2f5938eb8951, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1543841966175375478, guid: 0b0b8666913838542806c617410f455f, type: 3}
-  questionText: {fileID: 0}
-  option1Button: {fileID: 0}
-  option2Button: {fileID: 0}
-  option3Button: {fileID: 0}
-  option4Button: {fileID: 0}
-  resultCanvas: {fileID: 0}
-  correctanswer: {fileID: 0}
-  falseanswer: {fileID: 0}
-  redGate: {fileID: 0}
-  blueGate: {fileID: 0}
-  lifeSystem: {fileID: 0}

@@ -32,24 +32,33 @@ public class PopUpTrigger : MonoBehaviour
     [SerializeField] private TextMeshProUGUI falseAnswer;
     [SerializeField] private DoorManager doorManager; // Reference to the DoorManager script
     private DoorCombination[] doorCombinations;
+    private healthSystem healthSystem;
 
-    
+    private int x =1;
+
     // Other private fields
     private QuizData quizData;
     private int count = 0;
     private int currentQuestionIndex = -1;
 
     void Start()
-    {
+    {   
+
+        GameObject healthSystemObject = GameObject.Find("Player");
+
+    // Assign the healthSystem reference
+        healthSystem = healthSystemObject.GetComponent<healthSystem>();
+
+
         canvas.SetActive(false);
         resultCanvas.SetActive(false);
         doorCombinations = doorManager.combinations;
         DisableAllTeleporters(); // Disable all teleporters at start
     }
 
-
     public void OnInteractButtonClicked()
     {
+
         string selectedAnswer = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TextMeshProUGUI>().text;
 
         if (selectedAnswer == quizData.questions[currentQuestionIndex].answer)
@@ -61,15 +70,15 @@ public class PopUpTrigger : MonoBehaviour
             falseAnswer.gameObject.SetActive(false);
             EnableTeleportersForCurrentCombination();
             currentQuestionIndex++;
+            
         }
         else
         {
             resultCanvas.SetActive(true);
             StartCoroutine(HideResultCanvas());
-            canvas.SetActive(false);
             correctAnswer.gameObject.SetActive(false);
             falseAnswer.gameObject.SetActive(true);
-            DisableAllTeleporters();
+            healthSystem.TakeDamage(x);
         }
     }
 
@@ -109,32 +118,29 @@ public class PopUpTrigger : MonoBehaviour
         }
     }
 
- private void EnableTeleportersForCurrentCombination()
-{
-    Debug.Log("i AM HERE");
-    GameObject doorAccessButton = doorCombinations[count].doorAccessButton;
-    Debug.Log("I am below");
-    foreach (DoorCombination combination in doorCombinations)
-    { Debug.Log("I am in the for loop");
-        Teleporter redGateTeleporter = combination.redGate.GetComponent<Teleporter>();
-        Teleporter blueGateTeleporter = combination.blueGate.GetComponent<Teleporter>();
+    private void EnableTeleportersForCurrentCombination()
+    {
+        GameObject doorAccessButton = doorCombinations[count].doorAccessButton;
+        foreach (DoorCombination combination in doorCombinations)
+        {
+            Teleporter redGateTeleporter = combination.redGate.GetComponent<Teleporter>();
+            Teleporter blueGateTeleporter = combination.blueGate.GetComponent<Teleporter>();
 
-        if (combination.doorAccessButton == doorAccessButton)
-        {
-            redGateTeleporter.EnableTeleporter();
-            blueGateTeleporter.EnableTeleporter();
+            if (combination.doorAccessButton == doorAccessButton)
+            {
+                BoxCollider2D col = combination.doorAccessButton.GetComponent<BoxCollider2D>();
+                redGateTeleporter.EnableTeleporter();
+                blueGateTeleporter.EnableTeleporter();
+                col.enabled = false;
+            }
+            else
+            {
+                redGateTeleporter.DisableTeleporter();
+                blueGateTeleporter.DisableTeleporter();
+            }
         }
-        else
-        {
-            redGateTeleporter.DisableTeleporter();
-            blueGateTeleporter.DisableTeleporter();
-        }
+        count++;
     }
-    count++;
-}
-
-
-
 
     private void DisableAllTeleporters()
     {
@@ -144,4 +150,6 @@ public class PopUpTrigger : MonoBehaviour
             combination.blueGate.GetComponent<Teleporter>().DisableTeleporter();
         }
     }
+
+
 }

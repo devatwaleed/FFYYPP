@@ -12,6 +12,9 @@ public class enemyPatrol : MonoBehaviour
     public float speed;
     private GameObject player;
     private bool isPlayerDetected = false;
+
+    [SerializeField] Canvas gameOverCanvas;
+
     private float detectionTime = 0f; // Time since player detection
     private float maxDetectionTime = 2f; // Maximum time for detection before game over
 
@@ -24,6 +27,7 @@ public class enemyPatrol : MonoBehaviour
         anim = GetComponent<Animator>();
         currentPoint = pointB.transform;
         anim.SetBool("isRunning", true);
+        gameOverCanvas.gameObject.SetActive(false);
     }
 
     void Update()
@@ -44,7 +48,9 @@ public class enemyPatrol : MonoBehaviour
                 Debug.Log("Game Over");
                 isGameOver = true;
                 Time.timeScale = 0f; // Pause the game
-                // Implement your game over logic here
+                gameOverCanvas.gameObject.SetActive(true);
+
+                
             }
 
             anim.SetBool("isRunning", false);

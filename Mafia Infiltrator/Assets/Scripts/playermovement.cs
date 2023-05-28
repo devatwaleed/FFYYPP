@@ -42,6 +42,7 @@ public class playermovement : MonoBehaviour
         moveLeft=false;
         moveRight=false;
         moveUp=false;
+        moveDown=false;
         if (animator == null)
         {
             Debug.LogError("Animator component is missing!");
@@ -72,11 +73,11 @@ public class playermovement : MonoBehaviour
         moveUp=false;
     }
 
-    public void PointerclimbDown(){
+    public void PointerdownDown(){
         moveDown=true;
     }
 
-    public void Pointerclimbup(){
+    public void PointerupDown(){
         moveDown=false;
     }
     
@@ -103,7 +104,7 @@ public class playermovement : MonoBehaviour
         if (moveUp)
         {
             vertical = speed;
-            moveDown = false; // Disable moveDown when moveUp is pressed
+            moveDown = false;  // Disable moveDown when moveUp is pressed
         }
         else if (moveDown)
         {
@@ -115,6 +116,7 @@ public class playermovement : MonoBehaviour
             // No vertical input, player stays at current position on the ladder
             vertical = 0;
         }
+
     }
     else
     {
@@ -136,7 +138,9 @@ public class playermovement : MonoBehaviour
 }
 
 
-    private void FixedUpdate()
+ private bool isMovingDown = false;
+
+private void FixedUpdate()
 {
     rb.velocity = new Vector2(horizontal, rb.velocity.y);
 
@@ -147,10 +151,17 @@ public class playermovement : MonoBehaviour
         {
             // Move player up when the up button is pressed
             rb.velocity = new Vector2(rb.velocity.x, speed);
+            isMovingDown = false; // Reset isMovingDown
         }
         else if (moveDown)
         {
             // Move player down when the down button is pressed
+            rb.velocity = new Vector2(rb.velocity.x, -speed);
+            isMovingDown = true;
+        }
+        else if (isMovingDown && rb.velocity.y < 0)
+        {
+            // Keep player moving down if the down button was pressed and not released yet
             rb.velocity = new Vector2(rb.velocity.x, -speed);
         }
         else
@@ -168,6 +179,7 @@ public class playermovement : MonoBehaviour
         rb.gravityScale = 1f;
     }
 }
+
 
 
     private bool isGrounded()

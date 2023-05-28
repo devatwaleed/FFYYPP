@@ -13,6 +13,9 @@ public class DoorManager : MonoBehaviour
     [SerializeField]
     public DoorCombination[] combinations;
 
+    public BoxCollider2D detectionCollider;
+
+
     // Use this method to check the combination and perform actions accordingly
     public void CheckCombination(GameObject doorAccessButton)
     {

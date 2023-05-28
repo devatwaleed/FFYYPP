@@ -15,6 +15,7 @@ public class Teleporter : MonoBehaviour
     public void EnableTeleporter()
     {
         isTeleporterEnabled = true;
+        
     }
 
     public void DisableTeleporter()

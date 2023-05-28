@@ -7,6 +7,9 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float endAngle = 170f;
     [SerializeField] private float rotationTime = 2f;
     [SerializeField] private float waitTime = 5f;
+
+    [SerializeField] Canvas gameOverCanvas;
+
     private bool isRotating = false;
     public PolygonCollider2D detectionCollider;
     private bool isCameraEnabled = true;
@@ -14,6 +17,11 @@ public class CameraController : MonoBehaviour
     private float detectionTime = 0f; // Time since player detection
     private float maxDetectionTime = 2f; // Maximum time for detection before game over
     private bool isGameOver = false;
+
+    private void Start(){
+        gameOverCanvas.gameObject.SetActive(false);
+
+    }
 
     private void Update()
     {
@@ -36,6 +44,8 @@ public class CameraController : MonoBehaviour
                 isGameOver = true;
                 Time.timeScale = 0f; // Pause the game
                 // Implement your game over logic here
+                gameOverCanvas.gameObject.SetActive(true);
+
             }
 
             Debug.Log("Player Detected");
