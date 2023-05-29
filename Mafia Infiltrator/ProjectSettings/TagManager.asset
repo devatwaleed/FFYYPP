@@ -14,6 +14,8 @@ TagManager:
   - goToNextLevel
   - next
   - Computer
+  - DoorLocked
+  - DoorOpen
   layers:
   - Default
   - TransparentFX

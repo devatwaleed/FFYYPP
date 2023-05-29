@@ -34,6 +34,7 @@ public class PopUpTrigger : MonoBehaviour
     private DoorCombination[] doorCombinations;
     private healthSystem healthSystem;
 
+
     private int x =1;
 
     // Other private fields
@@ -48,6 +49,7 @@ public class PopUpTrigger : MonoBehaviour
 
     // Assign the healthSystem reference
         healthSystem = healthSystemObject.GetComponent<healthSystem>();
+
 
 
         canvas.SetActive(false);
@@ -70,6 +72,8 @@ public class PopUpTrigger : MonoBehaviour
             falseAnswer.gameObject.SetActive(false);
             EnableTeleportersForCurrentCombination();
             currentQuestionIndex++;
+
+
             
         }
         else
