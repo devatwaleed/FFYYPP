@@ -60,11 +60,12 @@ public class PopUpTrigger : MonoBehaviour
 
     public void OnInteractButtonClicked()
     {
-
+        GameObject doorAccessButton = doorCombinations[count].doorAccessButton;
         string selectedAnswer = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TextMeshProUGUI>().text;
 
         if (selectedAnswer == quizData.questions[currentQuestionIndex].answer)
         {
+            doorManager.ChangeSprite(doorAccessButton);
             resultCanvas.SetActive(true);
             StartCoroutine(HideResultCanvas());
             canvas.SetActive(false);

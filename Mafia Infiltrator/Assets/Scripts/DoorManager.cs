@@ -20,16 +20,15 @@ public class DoorManager : MonoBehaviour
     public BoxCollider2D detectionCollider;
 
     // Use this method to check the combination and perform actions accordingly
-    public void CheckCombination(GameObject doorAccessButton)
+    public void ChangeSprite(GameObject doorAccessButton)
 {
     foreach (DoorCombination combination in combinations)
     {
         if (combination.doorAccessButton == doorAccessButton)
         {
-            combination.redGate.GetComponent<Teleporter>().EnableTeleporter();
+            Debug.Log("Combination found");
             combination.redlocked.enabled = false;
             combination.redunlocked.enabled = true;
-            combination.blueGate.GetComponent<Teleporter>().EnableTeleporter();
             combination.bluelocked.enabled = false;
             combination.blueunlocked.enabled = true;
             break;
@@ -53,9 +52,13 @@ public class DoorManager : MonoBehaviour
             combination.redGate.GetComponent<Teleporter>().DisableTeleporter();
             combination.redlocked.enabled = true;
             combination.redunlocked.enabled = false;
+            if(combination.redlocked.enabled == true && combination.redunlocked.enabled == false)
+            Debug.Log("Red gate sprite changed");
             combination.blueGate.GetComponent<Teleporter>().DisableTeleporter();
             combination.bluelocked.enabled = true;
             combination.blueunlocked.enabled = false;
+            if(combination.bluelocked.enabled == true && combination.blueunlocked.enabled == false)
+            Debug.Log("blue gate sprite changed");
         }
     }
     private void GetSpriteRenderers()
@@ -64,10 +67,46 @@ public class DoorManager : MonoBehaviour
     {
         Debug.Log("Finding renderers");
         combination.redlocked = combination.redGate.transform.Find("DoorLocked").GetComponent<SpriteRenderer>();
+        if (combination.redlocked != null)
+        {
+            Debug.Log("DoorLocked sprite renderer found.");
+        }
+        else
+        {
+            Debug.Log("DoorLocked sprite renderer not found.");
+        }
+        
         combination.redunlocked = combination.redGate.transform.Find("DoorOpen").GetComponent<SpriteRenderer>();
+        if (combination.redunlocked != null)
+        {
+            Debug.Log("DoorOpen sprite renderer found.");
+        }
+        else
+        {
+            Debug.Log("DoorOpen sprite renderer not found.");
+        }
+        
         combination.bluelocked = combination.blueGate.transform.Find("DoorLocked").GetComponent<SpriteRenderer>();
+        if (combination.bluelocked != null)
+        {
+            Debug.Log("DoorLocked sprite renderer found.");
+        }
+        else
+        {
+            Debug.Log("DoorLocked sprite renderer not found.");
+        }
+        
         combination.blueunlocked = combination.blueGate.transform.Find("DoorOpen").GetComponent<SpriteRenderer>();
+        if (combination.blueunlocked != null)
+        {
+            Debug.Log("DoorOpen sprite renderer found.");
+        }
+        else
+        {
+            Debug.Log("DoorOpen sprite renderer not found.");
+        }
     }
 }
+
 
 }
