@@ -34,23 +34,19 @@ public class PopUpTrigger : MonoBehaviour
     private DoorCombination[] doorCombinations;
     private healthSystem healthSystem;
 
-
-    private int x =1;
+    private int x = 1;
 
     // Other private fields
     private QuizData quizData;
     private int count = 0;
     private int currentQuestionIndex = -1;
+    private bool allQuestionsAnswered = false;
 
     void Start()
-    {   
-
+    {
         GameObject healthSystemObject = GameObject.Find("Player");
-
-    // Assign the healthSystem reference
+        // Assign the healthSystem reference
         healthSystem = healthSystemObject.GetComponent<healthSystem>();
-
-
 
         canvas.SetActive(false);
         resultCanvas.SetActive(false);
@@ -74,8 +70,12 @@ public class PopUpTrigger : MonoBehaviour
             EnableTeleportersForCurrentCombination();
             currentQuestionIndex++;
 
-
-            
+            if (currentQuestionIndex >= quizData.questions.Length)
+            {
+                // All questions have been answered
+                allQuestionsAnswered = true;
+                currentQuestionIndex = -1;
+            }
         }
         else
         {
@@ -93,27 +93,31 @@ public class PopUpTrigger : MonoBehaviour
         resultCanvas.SetActive(false);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+   private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (!allQuestionsAnswered && collision.CompareTag("AccessButton"))
     {
-        if (collision.CompareTag("AccessButton"))
+        if (currentQuestionIndex == -1)
         {
-            if (currentQuestionIndex == -1)
+            string jsonString = System.IO.File.ReadAllText(Application.dataPath + "/Data/questions.json");
+            Debug.Log("JSON string: " + jsonString);
+            quizData = JsonUtility.FromJson<QuizData>(jsonString);
+            if (quizData.questions.Length > 0)
             {
-                string jsonString = System.IO.File.ReadAllText(Application.dataPath + "/Data/questions.json");
-                Debug.Log("JSON string: " + jsonString);
-                quizData = JsonUtility.FromJson<QuizData>(jsonString);
                 currentQuestionIndex = UnityEngine.Random.Range(0, quizData.questions.Length);
             }
-            questionText.text = quizData.questions[currentQuestionIndex].question;
-            canvas.SetActive(true);
-
-            string[] options = quizData.questions[currentQuestionIndex].options;
-            option1Button.GetComponentInChildren<TextMeshProUGUI>().text = options[0];
-            option2Button.GetComponentInChildren<TextMeshProUGUI>().text = options[1];
-            option3Button.GetComponentInChildren<TextMeshProUGUI>().text = options[2];
-            option4Button.GetComponentInChildren<TextMeshProUGUI>().text = options[3];
         }
+        questionText.text = quizData.questions[currentQuestionIndex].question;
+        canvas.SetActive(true);
+
+        string[] options = quizData.questions[currentQuestionIndex].options;
+        option1Button.GetComponentInChildren<TextMeshProUGUI>().text = options[0];
+        option2Button.GetComponentInChildren<TextMeshProUGUI>().text = options[1];
+        option3Button.GetComponentInChildren<TextMeshProUGUI>().text = options[2];
+        option4Button.GetComponentInChildren<TextMeshProUGUI>().text = options[3];
     }
+}
+
 
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -140,8 +144,11 @@ public class PopUpTrigger : MonoBehaviour
             }
             else
             {
-                redGateTeleporter.DisableTeleporter();
-                blueGateTeleporter.DisableTeleporter();
+                if (!allQuestionsAnswered)
+                {
+                    redGateTeleporter.DisableTeleporter();
+                    blueGateTeleporter.DisableTeleporter();
+                }
             }
         }
         count++;
@@ -155,6 +162,4 @@ public class PopUpTrigger : MonoBehaviour
             combination.blueGate.GetComponent<Teleporter>().DisableTeleporter();
         }
     }
-
-
 }

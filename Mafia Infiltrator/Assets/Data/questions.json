@@ -91,7 +91,7 @@
         ],
         "answer": "a) 99999"
 		},
-        {
+    {
         "question": "LCM of 20,15 and 10 is",
         "options": [
         "a) 60",
@@ -100,7 +100,7 @@
         "d) 30"
         ],
         "answer": "a) 60"
-        }
+    }
         ]
     }
         

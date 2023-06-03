@@ -32,8 +32,6 @@ public class enemyPatrol : MonoBehaviour
 
     void Update()
     {
-        if (isGameOver)
-            return; // Stop updating if game over
 
         // Set the playerDetected parameter in the Animator controller
         anim.SetBool("playerDetected", isPlayerDetected);
@@ -46,8 +44,6 @@ public class enemyPatrol : MonoBehaviour
             {
                 // Game over condition
                 Debug.Log("Game Over");
-                isGameOver = true;
-                Time.timeScale = 0f; // Pause the game
                 gameOverCanvas.gameObject.SetActive(true);
 
                 

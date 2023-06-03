@@ -24,9 +24,7 @@ public class CameraController : MonoBehaviour
     }
 
     private void Update()
-    {
-        if (isGameOver)
-            return; // Stop updating if game over
+    { // Stop updating if game over
 
         if (isCameraEnabled && !isRotating)
         {
@@ -41,9 +39,6 @@ public class CameraController : MonoBehaviour
             {
                 // Game over condition
                 Debug.Log("Game Over");
-                isGameOver = true;
-                Time.timeScale = 0f; // Pause the game
-                // Implement your game over logic here
                 gameOverCanvas.gameObject.SetActive(true);
 
             }
