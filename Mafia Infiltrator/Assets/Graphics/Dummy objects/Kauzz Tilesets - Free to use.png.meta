@@ -1,0 +1,2027 @@
+fileFormatVersion: 2
+guid: 522ccc0a43e66a44dbf87a91e00e66bc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee57cf07e87b3bb439960c683b216120
+      internalID: -301891300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 452
+        width: 69
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b28b502c9e8a644afb0084a1017f53
+      internalID: -2008851318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 420
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8095b685407b124429cdeedb11dce45f
+      internalID: -1577850105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 411
+        width: 126
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a84d74cbaaae44aabf74fd55b41d2a
+      internalID: 1146332298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 449
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478ced173d0337d4383f21f573938f92
+      internalID: -996689889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_5
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 347
+        width: 102
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225901cc2a66cba47a4dd0710615f299
+      internalID: 1055465459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f318b64630868bc4c8e034c8294a8dcc
+      internalID: 401241310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 396
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a2d774f0dbef54980a4590b381af85
+      internalID: -1881128099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_8
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 416
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c2ad783eeaadc499da9569a2417f3a
+      internalID: 712643018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213e9253b6167d449aad939ec032876c
+      internalID: 736971864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1d720411d50f5439b47d5deb87ecd0
+      internalID: 381922909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 384
+        width: 87
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c53bdaec9ff5994d9c4e0618b31b67a
+      internalID: 2007624911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_12
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 384
+        width: 56
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558457b2b0d3bca4dab4a604d5897348
+      internalID: 805846894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 324
+        width: 60
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33266813fd7e2447809e7ddae4fa951
+      internalID: 1504906894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_14
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 364
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc526b790c866441acf6d358c5bf8dc
+      internalID: -981295290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 357
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cc6e8dfb2a57a4c8069663cd18c41b
+      internalID: -1644212044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 292
+        width: 28
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7faaf1e1132da545af98501422ea534
+      internalID: -1327425678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 292
+        width: 28
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a9483cad8e21c4484231a0bd9a8040
+      internalID: -1895130065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 325
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2c5c735c816e64fa7118e556bbe326
+      internalID: 1394444152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 334
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411fd0ebd3e6b4847b9506962302ec5d
+      internalID: -2100042600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 334
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9ea7151483e97449b6b60370638095
+      internalID: -1739345854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 295
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf3f81aef97e3c46b418e9ccd7a4058
+      internalID: 578466446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_22
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 342
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960c36c70c73ae641b8ba12802929bb8
+      internalID: -1955573888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_23
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 342
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c5aaa97aa9272468294f4a26b78f18
+      internalID: -1343842239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_24
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 342
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccde069b1b1ecce42ba2610e62e71c4c
+      internalID: 1920683609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_25
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 342
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648e1f591c37b824a9a428a3e396cecd
+      internalID: 1250660603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_26
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 290
+        width: 104
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e3ece6a8a53b249b9245d7a13d67fb
+      internalID: 1312161880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_27
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 340
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bc1099cf64c564bbabb4185c9f4914
+      internalID: 386050621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 290
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29207ce9e2541724c8c9a37b92890132
+      internalID: -1362120015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_29
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 321
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8836e75f9aa5b4b4c9e4e13b4169ddfb
+      internalID: 2012276873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_30
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 289
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d91b92bad7149489f20257e410dffc
+      internalID: 671324529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_31
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 310
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1490652d84de9e4280add1c9a241230
+      internalID: 1957330717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 316
+        width: 18
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f2558b4326a25448be6d712aa45d4a
+      internalID: -1415529295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_33
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 234
+        width: 30
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a42b156ee97dd042803964679fe47a4
+      internalID: 822169562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_34
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 264
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8203c998109ccfb45878112f6f843b81
+      internalID: -686262202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_35
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 285
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0652ad869238c974ab106f7e23e835ba
+      internalID: 32650609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_36
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 285
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed28b4f801ee55439297dff058adc78
+      internalID: 1599597519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_37
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 293
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002c7e0216a75fa41815465242efc851
+      internalID: -902211880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_38
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 291
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2124835706285704caa5d7227dbe3165
+      internalID: 1604970241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_39
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 291
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7500b6d40a1184ea2e03c277e8eb5a
+      internalID: 447822277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_40
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 295
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9bb14aef173a44dbe4eafc5234f637
+      internalID: 1641381984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_41
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 234
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6093b02bdd45bcc4294ab2a5b8576ed6
+      internalID: 1991158826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 227
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38d1b503b1519441ab23f5fdf7ea732
+      internalID: -2077586793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_43
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 227
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406bf27f7fbd3164aa884ff1f72ccc87
+      internalID: 291221654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_44
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 222
+        width: 85
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8f2ced423aee441815cc754db53679
+      internalID: 1974476888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_45
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 282
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46590a560ddec2a49a81767b26ffbf2e
+      internalID: 625138523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_46
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 160
+        width: 58
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec764e114f0c7849a24d71aef78dac4
+      internalID: -1922627226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_47
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 96
+        width: 71
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db0b40ba6881404d8d2a8b826c7bbd5
+      internalID: 116075078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_48
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 261
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0271e5b5b51e45f4a8112a70ea5aaa7f
+      internalID: 287178271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 200
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb80c41c86f33cb4c99e8bfb37243caa
+      internalID: -1772105132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_50
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 230
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e290114e9b71f48b8fa03535a43e38
+      internalID: 1096424151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_51
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678017de5569c634f86bb638845e4cee
+      internalID: 1138095720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc00d8fe63114ad4da523af40876515d
+      internalID: 513594598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_53
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 164
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3d4576a1a1ed04fb4d2cfc9e6d1e4b
+      internalID: -1809595867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 222
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254b6c92a05e3b1478ccbbc44a0bdd83
+      internalID: -1259199521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_55
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 170
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e3dc2da5b89c54ba5107b5c4d2d7b7
+      internalID: 457128454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_56
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 199
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a16507c4946b9c4fb413326c1bf6e74
+      internalID: -389073877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_57
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 199
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553d386f0c07df64f8cd2611a27727b9
+      internalID: 1417917056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_58
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 169
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0cbd4d99a440444806412c15e9999c
+      internalID: 888033201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_59
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 161
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df35c4fc039bb8458cf564627c71167
+      internalID: -624790499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_60
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 161
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac5e7805f5caf64db3f18bb2362bcb2
+      internalID: 757238487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_61
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 193
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b35a4cb96909124289751b1c0ba43f2
+      internalID: -1016729501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_62
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 192
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039d3719a80aa184eb2c2d348ef726da
+      internalID: 1224563060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 186
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6d202a5d46f3d42aa497f3b342f83a
+      internalID: -361572235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_64
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 186
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4648a7b5d46af4a9f9701fa9472f18
+      internalID: 1267959166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 186
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8e5455a6b9cde4995d37e38466ca64
+      internalID: -661287955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_66
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 136
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6298efb08365274488a48c910c1dafb9
+      internalID: 1964746398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_67
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 133
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0af77d48b905c458e9dc1ef5dfe017
+      internalID: 1923352686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_68
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9c96b95a1b3b049aec3fd70c722ec0
+      internalID: 1810514747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_69
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 98
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0725a1acff51a4aba3a2a1f61a4001
+      internalID: -1186981357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_70
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 156
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5384559e98325464480d01873908b214
+      internalID: -689463361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_71
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 120
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4526b7f3459f5b6459f8f1d407c0f3fb
+      internalID: -1056422543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_72
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 96
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785d0f36462995b49bbcee4999907a43
+      internalID: -1964447717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 152
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1afe012549be3349a442faa712fee0b
+      internalID: 500296461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_74
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 111
+        width: 71
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a796506feed174a8723fc0e7f15bcf
+      internalID: 1791154772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_75
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db0f23fbaddb514898fd3f9350cdef0
+      internalID: 1167049765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_76
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 139
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e97d9a41c0545440ba753014bf2bd1b
+      internalID: 207463186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_77
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 157
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5af6de9990468468ff29a0deb2e99d
+      internalID: 774858522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_78
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 114
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfade4f0694ea1f4587640b58b6f65d2
+      internalID: -676976664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_79
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 114
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaffeda5684e8940a873625c92c012f
+      internalID: -1052481781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_80
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 114
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fd44dec4a57c64d98ca0026f894c0b
+      internalID: 1584430063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 294
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5941f689ee5ba8d4684f62219fc5d6e5
+      internalID: 655818760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_82
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 77
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a42cf9665012d42aaee23f43b79a22
+      internalID: -1642926248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_83
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 69
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9b447287ea8a54c8917a2c0a8c175f
+      internalID: 926362883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_84
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 64
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897bea59e908ccb4db9286b5c4a6f7f7
+      internalID: -237045765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kauzz Tilesets - Free to use_85
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05d9ab5c889ae94b99281f9720b59fb
+      internalID: 1071241131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kauzz Tilesets - Free to use_43: 291221654
+      Kauzz Tilesets - Free to use_62: 1224563060
+      Kauzz Tilesets - Free to use_34: -686262202
+      Kauzz Tilesets - Free to use_70: -689463361
+      Kauzz Tilesets - Free to use_66: 1964746398
+      Kauzz Tilesets - Free to use_81: 655818760
+      Kauzz Tilesets - Free to use_23: -1343842239
+      Kauzz Tilesets - Free to use_73: 500296461
+      Kauzz Tilesets - Free to use_38: 1604970241
+      Kauzz Tilesets - Free to use_68: 1810514747
+      Kauzz Tilesets - Free to use_69: -1186981357
+      Kauzz Tilesets - Free to use_31: 1957330717
+      Kauzz Tilesets - Free to use_9: 736971864
+      Kauzz Tilesets - Free to use_22: -1955573888
+      Kauzz Tilesets - Free to use_10: 381922909
+      Kauzz Tilesets - Free to use_45: 625138523
+      Kauzz Tilesets - Free to use_3: 1146332298
+      Kauzz Tilesets - Free to use_59: -624790499
+      Kauzz Tilesets - Free to use_13: 1504906894
+      Kauzz Tilesets - Free to use_55: 457128454
+      Kauzz Tilesets - Free to use_27: 386050621
+      Kauzz Tilesets - Free to use_41: 1991158826
+      Kauzz Tilesets - Free to use_16: -1327425678
+      Kauzz Tilesets - Free to use_25: 1250660603
+      Kauzz Tilesets - Free to use_49: -1772105132
+      Kauzz Tilesets - Free to use_11: 2007624911
+      Kauzz Tilesets - Free to use_77: 774858522
+      Kauzz Tilesets - Free to use_51: 1138095720
+      Kauzz Tilesets - Free to use_75: 1167049765
+      Kauzz Tilesets - Free to use_32: -1415529295
+      Kauzz Tilesets - Free to use_50: 1096424151
+      Kauzz Tilesets - Free to use_4: -996689889
+      Kauzz Tilesets - Free to use_20: -1739345854
+      Kauzz Tilesets - Free to use_74: 1791154772
+      Kauzz Tilesets - Free to use_76: 207463186
+      Kauzz Tilesets - Free to use_53: -1809595867
+      Kauzz Tilesets - Free to use_17: -1895130065
+      Kauzz Tilesets - Free to use_2: -1577850105
+      Kauzz Tilesets - Free to use_35: 32650609
+      Kauzz Tilesets - Free to use_54: -1259199521
+      Kauzz Tilesets - Free to use_85: 1071241131
+      Kauzz Tilesets - Free to use_82: -1642926248
+      Kauzz Tilesets - Free to use_80: 1584430063
+      Kauzz Tilesets - Free to use_36: 1599597519
+      Kauzz Tilesets - Free to use_19: -2100042600
+      Kauzz Tilesets - Free to use_29: 2012276873
+      Kauzz Tilesets - Free to use_71: -1056422543
+      Kauzz Tilesets - Free to use_26: 1312161880
+      Kauzz Tilesets - Free to use_42: -2077586793
+      Kauzz Tilesets - Free to use_61: -1016729501
+      Kauzz Tilesets - Free to use_65: -661287955
+      Kauzz Tilesets - Free to use_15: -1644212044
+      Kauzz Tilesets - Free to use_78: -676976664
+      Kauzz Tilesets - Free to use_7: -1881128099
+      Kauzz Tilesets - Free to use_57: 1417917056
+      Kauzz Tilesets - Free to use_40: 1641381984
+      Kauzz Tilesets - Free to use_48: 287178271
+      Kauzz Tilesets - Free to use_1: -2008851318
+      Kauzz Tilesets - Free to use_18: 1394444152
+      Kauzz Tilesets - Free to use_12: 805846894
+      Kauzz Tilesets - Free to use_72: -1964447717
+      Kauzz Tilesets - Free to use_63: -361572235
+      Kauzz Tilesets - Free to use_39: 447822277
+      Kauzz Tilesets - Free to use_44: 1974476888
+      Kauzz Tilesets - Free to use_8: 712643018
+      Kauzz Tilesets - Free to use_84: -237045765
+      Kauzz Tilesets - Free to use_46: -1922627226
+      Kauzz Tilesets - Free to use_14: -981295290
+      Kauzz Tilesets - Free to use_21: 578466446
+      Kauzz Tilesets - Free to use_30: 671324529
+      Kauzz Tilesets - Free to use_64: 1267959166
+      Kauzz Tilesets - Free to use_24: 1920683609
+      Kauzz Tilesets - Free to use_58: 888033201
+      Kauzz Tilesets - Free to use_83: 926362883
+      Kauzz Tilesets - Free to use_60: 757238487
+      Kauzz Tilesets - Free to use_5: 1055465459
+      Kauzz Tilesets - Free to use_33: 822169562
+      Kauzz Tilesets - Free to use_6: 401241310
+      Kauzz Tilesets - Free to use_37: -902211880
+      Kauzz Tilesets - Free to use_47: 116075078
+      Kauzz Tilesets - Free to use_79: -1052481781
+      Kauzz Tilesets - Free to use_56: -389073877
+      Kauzz Tilesets - Free to use_67: 1923352686
+      Kauzz Tilesets - Free to use_52: 513594598
+      Kauzz Tilesets - Free to use_0: -301891300
+      Kauzz Tilesets - Free to use_28: -1362120015
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

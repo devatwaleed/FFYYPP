@@ -34,8 +34,6 @@ public class healthSystem : MonoBehaviour
         {
             // Player has run out of health, trigger game over or other desired actions
             Debug.Log("Game Over");
-            isGameOver = true;
-            Time.timeScale = 0f; // Pause the game
             gameOverCanvas.gameObject.SetActive(true);
         }
     }
