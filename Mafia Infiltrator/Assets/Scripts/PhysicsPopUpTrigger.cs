@@ -5,7 +5,7 @@ using TMPro;
 using System.Collections;
 
 [System.Serializable]
-public class QuizQuestion
+public class QuizQuestionss
 {
     public string question;
     public string[] options;
@@ -13,12 +13,12 @@ public class QuizQuestion
 }
 
 [System.Serializable]
-public class QuizData
+public class QuizDatas
 {
     public QuizQuestion[] questions;
 }
 
-public class PopUpTrigger : MonoBehaviour
+public class PhysicsPopUpTrigger : MonoBehaviour
 {
     // Serialized fields
     [SerializeField] private GameObject canvas;
@@ -99,7 +99,7 @@ public class PopUpTrigger : MonoBehaviour
     {
         if (currentQuestionIndex == -1)
         {
-            string jsonString = System.IO.File.ReadAllText(Application.dataPath + "/Data/MathsQuestions.json");
+            string jsonString = System.IO.File.ReadAllText(Application.dataPath + "/Data/PhysicsQuestions.json");
             Debug.Log("JSON string: " + jsonString);
             quizData = JsonUtility.FromJson<QuizData>(jsonString);
             if (quizData.questions.Length > 0)

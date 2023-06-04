@@ -5,7 +5,7 @@ using TMPro;
 using System.Collections;
 
 [System.Serializable]
-public class QuizQuestion
+public class QuizQuestionsss
 {
     public string question;
     public string[] options;
@@ -13,12 +13,12 @@ public class QuizQuestion
 }
 
 [System.Serializable]
-public class QuizData
+public class QuizDatass
 {
     public QuizQuestion[] questions;
 }
 
-public class PopUpTrigger : MonoBehaviour
+public class ChemistryPopUpTrigger : MonoBehaviour
 {
     // Serialized fields
     [SerializeField] private GameObject canvas;
