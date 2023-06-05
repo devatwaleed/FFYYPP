@@ -1,204 +1,107 @@
 {
     "questions": [
-        {
-            "question": "What is the smallest unit of matter?",
-            "options": [
-                "A. Atom",
-                "B. Molecule",
-                "C. Element",
-                "D. Compound"
-            ],
-            "answer": "A. Atom"
-        },
-        {
-            "question": "Which of the following is a chemical change?",
-            "options": [
-                "A. Boiling water",
-                "B. Melting ice",
-                "C. Burning wood",
-                "D. Dissolving sugar"
-            ],
-            "answer": "C. Burning wood"
-        },
-        {
-            "question": "What is the process by which a solid changes directly into a gas?",
-            "options": [
-                "A. Sublimation",
-                "B. Condensation",
-                "C. Evaporation",
-                "D. Freezing"
-            ],
-            "answer": "A. Sublimation"
-        },
-        {
-            "question": "Which of the following is a physical property of matter?",
-            "options": [
-                "A. Reactivity",
-                "B. Flammability",
-                "C. Density",
-                "D. Rusting"
-            ],
-            "answer": "C. Density"
-        },
-        {
-            "question": "What is the chemical symbol for oxygen?",
-            "options": [
-                "A. O",
-                "B. H",
-                "C. C",
-                "D. N"
-            ],
-            "answer": "A. O"
-        },
-        {
-            "question": "What is the pH scale used to measure?",
-            "options": [
-                "A. Temperature",
-                "B. Acidity",
-                "C. Density",
-                "D. Volume"
-            ],
-            "answer": "B. Acidity"
-        },
-        {
-            "question": "What is the process of converting a gas into a liquid called?",
-            "options": [
-                "A. Condensation",
-                "B. Evaporation",
-                "C. Sublimation",
-                "D. Freezing"
-            ],
-            "answer": "A. Condensation"
-        },
-        {
-            "question": "Which of the following is a chemical symbol for gold?",
-            "options": [
-                "A. Au",
-                "B. Ag",
-                "C. Cu",
-                "D. Fe"
-            ],
-            "answer": "A. Au"
-        },
-        {
-            "question": "What is the formula for water?",
-            "options": [
-                "A. H2O2",
-                "B. CO2",
-                "C. H2O",
-                "D. O2"
-            ],
-            "answer": "C. H2O"
-        },
-        {
-            "question": "Which of the following is a renewable resource?",
-            "options": [
-                "A. Coal",
-                "B. Natural gas",
-                "C. Solar energy",
-                "D. Nuclear energy"
-            ],
-            "answer": "C. Solar energy"
-        },
-        {
-            "question": "Which state of matter has a definite shape and volume?",
-            "options": [
-                "A. Solid",
-                "B. Liquid",
-                "C. Gas",
-                "D. Plasma"
-            ],
-            "answer": "A. Solid"
-        },
-        {
-            "question": "Which of the following is an example of a mixture?",
-            "options": [
-                "A. Salt",
-                "B. Sugar",
-                "C. Air",
-                "D. Iron"
-            ],
-            "answer": "C. Air"
-        },
-        {
-            "question": "What is the process of plants converting sunlight into energy called?",
-            "options": [
-                "A. Photosynthesis",
-                "B. Respiration",
-                "C. Transpiration",
-                "D. Germination"
-            ],
-            "answer": "A. Photosynthesis"
-        },
-        {
-            "question": "What is the state of matter in which particles have the most energy and move freely?",
-            "options": [
-                "A. Gas",
-                "B. Solid",
-                "C. Liquid",
-                "D. Plasma"
-            ],
-            "answer": "A. Gas"
-        },
-        {
-            "question": "What is the atomic number of carbon?",
-            "options": [
-                "A. 6",
-                "B. 8",
-                "C. 12",
-                "D. 16"
-            ],
-            "answer": "A. 6"
-        },
-        {
-            "question": "What is the process of water changing into vapor called?",
-            "options": [
-                "A. Boiling",
-                "B. Condensation",
-                "C. Evaporation",
-                "D. Freezing"
-            ],
-            "answer": "C. Evaporation"
-        },
-        {
-            "question": "Which of the following is an example of a non-metal?",
-            "options": [
-                "A. Iron",
-                "B. Aluminum",
-                "C. Copper",
-                "D. Oxygen"
-            ],
-            "answer": "D. Oxygen"
-        },
-        {
-            "question": "What is the chemical symbol for helium?",
-            "options": [
-                "A. He",
-                "B. H",
-                "C. C",
-                "D. Ne"
-            ],
-            "answer": "A. He"
-        },
-        {
-            "question": "What is the process of a gas changing directly into a solid called?",
-            "options": [
-                "A. Condensation",
-                "B. Evaporation",
-                "C. Sublimation",
-                "D. Freezing"
-            ],
-            "answer": "C. Sublimation"
-        },
-        {
-            "question": "Which of the following is a mixture?",
-            "options": [
-                "A. Sodium chloride",
-                "B. Oxygen gas",
-                "C. Sugar water",
-                "D. Silver"
-            ],
-            "answer": "C. Sugar water"
-        }
-    ]
-}
+      {
+        "question": "The product of the place values of two 2's in 428721 is ?",
+        "options": [
+          "a) 4",
+          "b) 40000",
+          "c) 400000",
+          "d) 40000000"
+        ],
+        "answer": "c) 400000"
+      },
+      {
+        "question": "3x10000 + 7x1000 + 9 x 100 +0 x 10 + 4 is the same as",
+        "options": [
+          "a) 3794",
+          "b) 37940",
+          "c) 37904",
+          "d) 379409"
+        ],
+        "answer": "c) 37904"
+      },
+      {
+        "question": "If 1 is added to the greatest 7-digit number, it will be equal to",
+        "options": [
+          "a) 10 thousand",
+          "b) 1 lakh",
+          "c) 10 lakh",
+          "d) 1 crore"
+        ],
+        "answer": "c) 10 lakh"
+      },
+      {
+        "question": "The expanded form of the number 9578 is",
+        "options": [
+          "a) 9 x 10000 +5 x 1000 +7 x 10 +8x1",
+          "b) 9 x 1000 + 5 x 100 +7 x 10 + 8 x 1",
+          "c) 9 x 1000 + 57 x 10 + 8 x 1",
+          "d) 9 x 100 + 5 x 100 +7 x 10 + 8 x 1"
+        ],
+        "answer": "b) 9 x 1000 + 5 x 100 +7 x 10 + 8 x 1"
+      },
+      {
+        "question": "In Following option which pair is not coprime? a) 8,10",
+        "options": [
+          "a) 11,12",
+          "b) 1,3",
+          "c) 31,33",
+		  "d) 8,10"
+        ],
+        "answer": "d) 8,10"
+      },
+      {
+        "question": "Between 58 and 80 what will be the number of even number?",
+        "options": [
+          "a) A 13",
+          "b) 12",
+          "c) 11",
+          "d) 10"
+        ],
+        "answer": "a) A 13"
+      },
+      {
+        "question": "What will be the sum of the prime factor of 1729 is?",
+        "options": [
+          "a) 39",
+          "b) 32",
+          "c) 34",
+          "d) 38"
+        ],
+        "answer": "a) 39"
+      },
+      {
+        "question": "Number divisible by 5 and 6. But not be divisible by?",
+        "options": [
+          "a) 60",
+          "b) 30",
+          "c) 15",
+          "d) 10"
+        ],
+        "answer": "a) 60"
+      },
+	  
+      {
+        "question": "What is the predecessor of 1 Lakh is?",
+        "options": [
+            "a) 99999",
+            "b) 999999",
+            "c) 99000",
+            "d) 100001"
+        ],
+        "answer": "a) 99999"
+		},
+    {
+        "question": "LCM of 20,15 and 10 is",
+        "options": [
+        "a) 60",
+        "b) 180",
+        "c) 90",
+        "d) 30"
+        ],
+        "answer": "a) 60"
+    }
+        ]
+    }
+        
+  
