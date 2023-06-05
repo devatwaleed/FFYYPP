@@ -1,107 +1,204 @@
 {
     "questions": [
-      {
-        "question": "The product of the place values of two 2's in 428721 is ?",
-        "options": [
-          "a) 4",
-          "b) 40000",
-          "c) 400000",
-          "d) 40000000"
-        ],
-        "answer": "c) 400000"
-      },
-      {
-        "question": "3x10000 + 7x1000 + 9 x 100 +0 x 10 + 4 is the same as",
-        "options": [
-          "a) 3794",
-          "b) 37940",
-          "c) 37904",
-          "d) 379409"
-        ],
-        "answer": "c) 37904"
-      },
-      {
-        "question": "If 1 is added to the greatest 7-digit number, it will be equal to",
-        "options": [
-          "a) 10 thousand",
-          "b) 1 lakh",
-          "c) 10 lakh",
-          "d) 1 crore"
-        ],
-        "answer": "c) 10 lakh"
-      },
-      {
-        "question": "The expanded form of the number 9578 is",
-        "options": [
-          "a) 9 x 10000 +5 x 1000 +7 x 10 +8x1",
-          "b) 9 x 1000 + 5 x 100 +7 x 10 + 8 x 1",
-          "c) 9 x 1000 + 57 x 10 + 8 x 1",
-          "d) 9 x 100 + 5 x 100 +7 x 10 + 8 x 1"
-        ],
-        "answer": "b) 9 x 1000 + 5 x 100 +7 x 10 + 8 x 1"
-      },
-      {
-        "question": "In Following option which pair is not coprime? a) 8,10",
-        "options": [
-          "a) 11,12",
-          "b) 1,3",
-          "c) 31,33",
-		  "d) 8,10"
-        ],
-        "answer": "d) 8,10"
-      },
-      {
-        "question": "Between 58 and 80 what will be the number of even number?",
-        "options": [
-          "a) A 13",
-          "b) 12",
-          "c) 11",
-          "d) 10"
-        ],
-        "answer": "a) A 13"
-      },
-      {
-        "question": "What will be the sum of the prime factor of 1729 is?",
-        "options": [
-          "a) 39",
-          "b) 32",
-          "c) 34",
-          "d) 38"
-        ],
-        "answer": "a) 39"
-      },
-      {
-        "question": "Number divisible by 5 and 6. But not be divisible by?",
-        "options": [
-          "a) 60",
-          "b) 30",
-          "c) 15",
-          "d) 10"
-        ],
-        "answer": "a) 60"
-      },
-	  
-      {
-        "question": "What is the predecessor of 1 Lakh is?",
-        "options": [
-            "a) 99999",
-            "b) 999999",
-            "c) 99000",
-            "d) 100001"
-        ],
-        "answer": "a) 99999"
-		},
-    {
-        "question": "LCM of 20,15 and 10 is",
-        "options": [
-        "a) 60",
-        "b) 180",
-        "c) 90",
-        "d) 30"
-        ],
-        "answer": "a) 60"
-    }
-        ]
-    }
-        
-  
+        {
+            "question": "What is the SI unit of length?",
+            "options": [
+                "A. Meter",
+                "B. Kilogram",
+                "C. Second",
+                "D. Liter"
+            ],
+            "answer": "A. Meter"
+        },
+        {
+            "question": "What is the force that pulls objects towards the center of the Earth called?",
+            "options": [
+                "A. Gravity",
+                "B. Friction",
+                "C. Magnetism",
+                "D. Inertia"
+            ],
+            "answer": "A. Gravity"
+        },
+        {
+            "question": "Which of the following is a form of energy?",
+            "options": [
+                "A. Light",
+                "B. Temperature",
+                "C. Volume",
+                "D. Mass"
+            ],
+            "answer": "A. Light"
+        },
+        {
+            "question": "What is the speed of light in a vacuum?",
+            "options": [
+                "A. 300,000 km\/s",
+                "B. 3,000 km\/s",
+                "C. 30,000 km\/s",
+                "D. 300 km\/s"
+            ],
+            "answer": "A. 300,000 km\/s"
+        },
+        {
+            "question": "What is the formula for calculating speed?",
+            "options": [
+                "A. Speed = Distance \/ Time",
+                "B. Speed = Time \/ Distance",
+                "C. Speed = Distance * Time",
+                "D. Speed = Distance - Time"
+            ],
+            "answer": "A. Speed = Distance \/ Time"
+        },
+        {
+            "question": "What is the force that opposes motion between two surfaces in contact called?",
+            "options": [
+                "A. Friction",
+                "B. Gravity",
+                "C. Inertia",
+                "D. Magnetism"
+            ],
+            "answer": "A. Friction"
+        },
+        {
+            "question": "Which of the following is an example of a simple machine?",
+            "options": [
+                "A. Screwdriver",
+                "B. Bicycle",
+                "C. Light bulb",
+                "D. Television"
+            ],
+            "answer": "A. Screwdriver"
+        },
+        {
+            "question": "What is the unit of electric current?",
+            "options": [
+                "A. Ampere",
+                "B. Volt",
+                "C. Watt",
+                "D. Ohm"
+            ],
+            "answer": "A. Ampere"
+        },
+        {
+            "question": "Which of the following is an example of a conductor?",
+            "options": [
+                "A. Plastic",
+                "B. Rubber",
+                "C. Copper",
+                "D. Glass"
+            ],
+            "answer": "C. Copper"
+        },
+        {
+            "question": "What is the process of an electric current passing through a substance and breaking it down called?",
+            "options": [
+                "A. Electrolysis",
+                "B. Condensation",
+                "C. Evaporation",
+                "D. Sublimation"
+            ],
+            "answer": "A. Electrolysis"
+        },
+        {
+            "question": "What is the formula for calculating work?",
+            "options": [
+                "A. Work = Force * Time",
+                "B. Work = Force \/ Time",
+                "C. Work = Force * Distance",
+                "D. Work = Force - Distance"
+            ],
+            "answer": "C. Work = Force * Distance"
+        },
+        {
+            "question": "Which of the following is the energy possessed by an object due to its motion?",
+            "options": [
+                "A. Potential energy",
+                "B. Kinetic energy",
+                "C. Chemical energy",
+                "D. Nuclear energy"
+            ],
+            "answer": "B. Kinetic energy"
+        },
+        {
+            "question": "What is the process of a solid changing directly into a gas called?",
+            "options": [
+                "A. Condensation",
+                "B. Evaporation",
+                "C. Sublimation",
+                "D. Freezing"
+            ],
+            "answer": "C. Sublimation"
+        },
+        {
+            "question": "Which of the following is an example of a renewable energy source?",
+            "options": [
+                "A. Coal",
+                "B. Natural gas",
+                "C. Solar power",
+                "D. Oil"
+            ],
+            "answer": "C. Solar power"
+        },
+        {
+            "question": "What is the unit of electric potential difference?",
+            "options": [
+                "A. Volt",
+                "B. Ampere",
+                "C. Watt",
+                "D. Ohm"
+            ],
+            "answer": "A. Volt"
+        },
+        {
+            "question": "What is the law that states that energy cannot be created or destroyed, only converted from one form to another?",
+            "options": [
+                "A. Newton's Law of Motion",
+                "B. Ohm's Law",
+                "C. Law of Conservation of Energy",
+                "D. Coulomb's Law"
+            ],
+            "answer": "C. Law of Conservation of Energy"
+        },
+        {
+            "question": "Which of the following is an example of a lever?",
+            "options": [
+                "A. Wheel",
+                "B. Pulley",
+                "C. Scissors",
+                "D. Screw"
+            ],
+            "answer": "C. Scissors"
+        },
+        {
+            "question": "What is the unit of power?",
+            "options": [
+                "A. Watt",
+                "B. Volt",
+                "C. Ampere",
+                "D. Ohm"
+            ],
+            "answer": "A. Watt"
+        },
+        {
+            "question": "What is the process of an object becoming positively charged or negatively charged by gaining or losing electrons called?",
+            "options": [
+                "A. Conduction",
+                "B. Radiation",
+                "C. Induction",
+                "D. Charging"
+            ],
+            "answer": "A. Conduction"
+        },
+        {
+            "question": "What is the unit of electric resistance?",
+            "options": [
+                "A. Ohm",
+                "B. Volt",
+                "C. Ampere",
+                "D. Watt"
+            ],
+            "answer": "A. Ohm"
+        }
+    ]
+}
