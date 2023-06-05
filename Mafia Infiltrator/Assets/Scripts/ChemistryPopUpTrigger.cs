@@ -99,7 +99,7 @@ public class ChemistryPopUpTrigger : MonoBehaviour
     {
         if (currentQuestionIndex == -1)
         {
-            string jsonString = System.IO.File.ReadAllText(Application.dataPath + "/Data/MathsQuestions.json");
+            string jsonString = System.IO.File.ReadAllText(Application.dataPath + "/Data/ChemistryQuestions.json");
             Debug.Log("JSON string: " + jsonString);
             quizData = JsonUtility.FromJson<QuizData>(jsonString);
             if (quizData.questions.Length > 0)

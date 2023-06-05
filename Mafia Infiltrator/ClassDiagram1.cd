@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BackgroundMusic">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\BackgroundMusic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraController">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACCAAAgAAAASgACAIEAiAAgAgQBAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraFollow">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAIAAAIAAAAAAAAAAAAAAkAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CameraFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cctvcolliderscript">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAAAACAAAAAEACAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\cctvcolliderscript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizQuestionsss">
+    <Position X="18" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\ChemistryPopUpTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizDatass">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ChemistryPopUpTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChemistryPopUpTrigger">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0AIAEACAACEAAAggBEAAAIACAUhAAAAICABAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\ChemistryPopUpTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerInteraction">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ComputerInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="createrandom">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\createrandom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorCombination">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAACCAAAIAAAAAAAAAEAAAAACAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DoorManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorManager">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAACAAAAAAAAAAAAAAAAICAAAIAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\DoorManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="enemyPatrol">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAAAAAEAQAAAAGAIEAgAQABAQBAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\enemyPatrol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="goToNextLevel">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\goToNextLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthBar">
+    <Position X="12.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAEAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="healthSystem">
+    <Position X="18" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAoACAAAAAAAAAAAACCAAQEAAAAAABAgAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\healthSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LadderMovement">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQCABgAAIAAEAAAAAAAAAEACAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LadderMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelSelector">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAEAAIAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LevelSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAABAAAAAIAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCInteraction">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PCInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizQuestionss">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\PhysicsPopUpTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizDatas">
+    <Position X="16.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PhysicsPopUpTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsPopUpTrigger">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0AIAEACAACEAAAggBEAAAIACAUhAAAAICABAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\PhysicsPopUpTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playermovement">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAQAAUCFBiAAIAAEAACAAAEAAUICCQCIAwAASEQCAAA=</HashCode>
+      <FileName>Assets\Scripts\playermovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTeleport">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAACAAAAAAAAAAAAAAAUAAAAAAACAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\playerTeleport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizQuestion">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\PopUpTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizData">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PopUpTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PopUpTrigger">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0AIAEACAACEAAAggBEAAAIACAUhAAAAICABAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\PopUpTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotateSprite">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAAAAAAAQgAAAAAAAAAgAgAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\RotateSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAACAAAAAAAACIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SoundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="soundOnOff">
+    <Position X="14.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAACAAAAAAQAAAAAAAAAABAAIBAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\soundOnOff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarManager">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAIIAAAAAAAQAAAgEAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StarManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teleporter">
+    <Position X="14.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAABQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Teleporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
