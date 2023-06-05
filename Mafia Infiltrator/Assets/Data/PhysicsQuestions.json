@@ -1,7 +1,204 @@
 {
     "questions": [
-      
-        ]
-    }
-        
-  
+        {
+            "question": "What is the SI unit of length?",
+            "options": [
+                "A. Meter",
+                "B. Kilogram",
+                "C. Second",
+                "D. Liter"
+            ],
+            "answer": "A. Meter"
+        },
+        {
+            "question": "What is the force that pulls objects towards the center of the Earth called?",
+            "options": [
+                "A. Gravity",
+                "B. Friction",
+                "C. Magnetism",
+                "D. Inertia"
+            ],
+            "answer": "A. Gravity"
+        },
+        {
+            "question": "Which of the following is a form of energy?",
+            "options": [
+                "A. Light",
+                "B. Temperature",
+                "C. Volume",
+                "D. Mass"
+            ],
+            "answer": "A. Light"
+        },
+        {
+            "question": "What is the speed of light in a vacuum?",
+            "options": [
+                "A. 300,000 km\/s",
+                "B. 3,000 km\/s",
+                "C. 30,000 km\/s",
+                "D. 300 km\/s"
+            ],
+            "answer": "A. 300,000 km\/s"
+        },
+        {
+            "question": "What is the formula for calculating speed?",
+            "options": [
+                "A. Speed = Distance \/ Time",
+                "B. Speed = Time \/ Distance",
+                "C. Speed = Distance * Time",
+                "D. Speed = Distance - Time"
+            ],
+            "answer": "A. Speed = Distance \/ Time"
+        },
+        {
+            "question": "What is the force that opposes motion between two surfaces in contact called?",
+            "options": [
+                "A. Friction",
+                "B. Gravity",
+                "C. Inertia",
+                "D. Magnetism"
+            ],
+            "answer": "A. Friction"
+        },
+        {
+            "question": "Which of the following is an example of a simple machine?",
+            "options": [
+                "A. Screwdriver",
+                "B. Bicycle",
+                "C. Light bulb",
+                "D. Television"
+            ],
+            "answer": "A. Screwdriver"
+        },
+        {
+            "question": "What is the unit of electric current?",
+            "options": [
+                "A. Ampere",
+                "B. Volt",
+                "C. Watt",
+                "D. Ohm"
+            ],
+            "answer": "A. Ampere"
+        },
+        {
+            "question": "Which of the following is an example of a conductor?",
+            "options": [
+                "A. Plastic",
+                "B. Rubber",
+                "C. Copper",
+                "D. Glass"
+            ],
+            "answer": "C. Copper"
+        },
+        {
+            "question": "What is the process of an electric current passing through a substance and breaking it down called?",
+            "options": [
+                "A. Electrolysis",
+                "B. Condensation",
+                "C. Evaporation",
+                "D. Sublimation"
+            ],
+            "answer": "A. Electrolysis"
+        },
+        {
+            "question": "What is the formula for calculating work?",
+            "options": [
+                "A. Work = Force * Time",
+                "B. Work = Force \/ Time",
+                "C. Work = Force * Distance",
+                "D. Work = Force - Distance"
+            ],
+            "answer": "C. Work = Force * Distance"
+        },
+        {
+            "question": "Which of the following is the energy possessed by an object due to its motion?",
+            "options": [
+                "A. Potential energy",
+                "B. Kinetic energy",
+                "C. Chemical energy",
+                "D. Nuclear energy"
+            ],
+            "answer": "B. Kinetic energy"
+        },
+        {
+            "question": "What is the process of a solid changing directly into a gas called?",
+            "options": [
+                "A. Condensation",
+                "B. Evaporation",
+                "C. Sublimation",
+                "D. Freezing"
+            ],
+            "answer": "C. Sublimation"
+        },
+        {
+            "question": "Which of the following is an example of a renewable energy source?",
+            "options": [
+                "A. Coal",
+                "B. Natural gas",
+                "C. Solar power",
+                "D. Oil"
+            ],
+            "answer": "C. Solar power"
+        },
+        {
+            "question": "What is the unit of electric potential difference?",
+            "options": [
+                "A. Volt",
+                "B. Ampere",
+                "C. Watt",
+                "D. Ohm"
+            ],
+            "answer": "A. Volt"
+        },
+        {
+            "question": "What is the law that states that energy cannot be created or destroyed, only converted from one form to another?",
+            "options": [
+                "A. Newton's Law of Motion",
+                "B. Ohm's Law",
+                "C. Law of Conservation of Energy",
+                "D. Coulomb's Law"
+            ],
+            "answer": "C. Law of Conservation of Energy"
+        },
+        {
+            "question": "Which of the following is an example of a lever?",
+            "options": [
+                "A. Wheel",
+                "B. Pulley",
+                "C. Scissors",
+                "D. Screw"
+            ],
+            "answer": "C. Scissors"
+        },
+        {
+            "question": "What is the unit of power?",
+            "options": [
+                "A. Watt",
+                "B. Volt",
+                "C. Ampere",
+                "D. Ohm"
+            ],
+            "answer": "A. Watt"
+        },
+        {
+            "question": "What is the process of an object becoming positively charged or negatively charged by gaining or losing electrons called?",
+            "options": [
+                "A. Conduction",
+                "B. Radiation",
+                "C. Induction",
+                "D. Charging"
+            ],
+            "answer": "A. Conduction"
+        },
+        {
+            "question": "What is the unit of electric resistance?",
+            "options": [
+                "A. Ohm",
+                "B. Volt",
+                "C. Ampere",
+                "D. Watt"
+            ],
+            "answer": "A. Ohm"
+        }
+    ]
+}
