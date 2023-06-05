@@ -3795,10 +3795,10 @@ RectTransform:
   m_Father: {fileID: 1147303268}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -696.2, y: -470.56}
-  m_SizeDelta: {x: 133.6696, y: 133.67}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 263.8, y: 69.44}
+  m_SizeDelta: {x: 133.66962, y: 133.66998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &118003528
 GameObject:
@@ -10033,7 +10033,7 @@ MonoBehaviour:
   endAngle: 170
   rotationTime: 2
   waitTime: 5
-  gameOverCanvas: {fileID: 0}
+  gameOverCanvas: {fileID: 1970901521}
   detectionCollider: {fileID: 1184285304}
 --- !u!60 &1184285304
 PolygonCollider2D:
