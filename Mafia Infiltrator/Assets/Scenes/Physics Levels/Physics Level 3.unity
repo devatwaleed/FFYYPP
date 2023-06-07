@@ -10601,7 +10601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f35d769e5bb7ea4eb2c163af1837262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraController: {fileID: 0}
+  cameraController: {fileID: 1588156385}
 --- !u!212 &1085171678
 SpriteRenderer:
   m_ObjectHideFlags: 0

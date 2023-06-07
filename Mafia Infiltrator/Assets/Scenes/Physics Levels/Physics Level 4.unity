@@ -8886,7 +8886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f35d769e5bb7ea4eb2c163af1837262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraController: {fileID: 0}
+  cameraController: {fileID: 1777581294}
 --- !u!212 &983928167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11287,6 +11287,10 @@ PrefabInstance:
     - target: {fileID: 2684185132948821613, guid: 79369e8b762cef449b43bfa841d6a5b4, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317411644849757373, guid: 79369e8b762cef449b43bfa841d6a5b4, type: 3}
+      propertyPath: m_TagString
+      value: AccessButton
       objectReference: {fileID: 0}
     - target: {fileID: 7599211561801043268, guid: 79369e8b762cef449b43bfa841d6a5b4, type: 3}
       propertyPath: m_Name

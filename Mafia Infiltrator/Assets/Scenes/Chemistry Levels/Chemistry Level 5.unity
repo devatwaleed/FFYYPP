@@ -426,7 +426,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 757105317099073436, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
           m_TargetAssemblyTypeName: playermovement, Assembly-CSharp
           m_MethodName: PointerDownClimb
           m_Mode: 1
@@ -442,7 +442,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 757105317099073436, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
           m_TargetAssemblyTypeName: playermovement, Assembly-CSharp
           m_MethodName: PointerUpClimb
           m_Mode: 1
@@ -1215,7 +1215,7 @@ PrefabInstance:
     - target: {fileID: 757105317099073436, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
       propertyPath: actionButton
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 595382864}
     - target: {fileID: 2494647990577034820, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
       propertyPath: canvas
       value: 
@@ -1247,7 +1247,7 @@ PrefabInstance:
     - target: {fileID: 2494647990577034820, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
       propertyPath: interactButton
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 595382864}
     - target: {fileID: 7120581550084784788, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -9214,7 +9214,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 757105317099073436, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
           m_TargetAssemblyTypeName: playermovement, Assembly-CSharp
           m_MethodName: PointerDownLeft
           m_Mode: 1
@@ -9230,7 +9230,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 757105317099073436, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
           m_TargetAssemblyTypeName: playermovement, Assembly-CSharp
           m_MethodName: PointerUpLeft
           m_Mode: 1
@@ -10438,7 +10438,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 757105317099073436, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
           m_TargetAssemblyTypeName: playermovement, Assembly-CSharp
           m_MethodName: PointerDownRight
           m_Mode: 1
@@ -10454,7 +10454,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 757105317099073436, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
           m_TargetAssemblyTypeName: playermovement, Assembly-CSharp
           m_MethodName: PointerUpRight
           m_Mode: 1
@@ -14446,7 +14446,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 757105317099073436, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
           m_TargetAssemblyTypeName: playermovement, Assembly-CSharp
           m_MethodName: PointerdownDown
           m_Mode: 1
@@ -14462,7 +14462,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 757105317099073436, guid: 4c34cac81cc3296408db7bd4f48089cd, type: 3}
           m_TargetAssemblyTypeName: playermovement, Assembly-CSharp
           m_MethodName: PointerupDown
           m_Mode: 1

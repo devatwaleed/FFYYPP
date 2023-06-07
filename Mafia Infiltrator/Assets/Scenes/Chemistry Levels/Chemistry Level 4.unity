@@ -6075,7 +6075,7 @@ MonoBehaviour:
   endAngle: 170
   rotationTime: 2
   waitTime: 5
-  gameOverCanvas: {fileID: 0}
+  gameOverCanvas: {fileID: 2016879846}
   detectionCollider: {fileID: 1138477714}
 --- !u!60 &1138477714
 PolygonCollider2D:
